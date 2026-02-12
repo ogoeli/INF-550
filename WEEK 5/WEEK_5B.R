@@ -79,8 +79,6 @@ t0 <- t1 - 180
 # 3) AmeriFlux BASE download & subset (FC/H)
 # -------------------------
 # Supply your AmeriFlux credentials
-user  <- "Ogonna"
-email <- "Ogonnaeli@yahoo.com"
 if (!nzchar(user) || !nzchar(email)) stop("Please set your AmeriFlux user/email.")
 
 amf_files <- amf_download_base(

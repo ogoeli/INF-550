@@ -43,9 +43,6 @@ utc_offset_hours <- -5  # Eastern Standard Time offset for AmeriFlux "local stan
 # =======================
 # 1) Download AmeriFlux BASE for US-xHA
 # =======================
-user  <- "Ogonna"
-email <- "Ogonnaeli@yahoo.com"
-password <- "Miracle2009+++"
 
 base_paths <- amf_download_base(
   user_id = user, user_email = email,
